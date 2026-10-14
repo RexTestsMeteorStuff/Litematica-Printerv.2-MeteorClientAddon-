@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "litematica_printer2",
+  "version": "${version}",
+  "name": "Litematica Printer2",
+  "description": "Companion addon prototype with a toggleable 10-block interaction reach override.",
+  "authors": ["Litematica Printer2 contributors"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "dev.printer2.Printer2Addon"
+    ]
+  },
+  "mixins": [
+    "litematica-printer2.mixins.json"
+  ],
+  "depends": {
+    "java": ">=25",
+    "minecraft": "26.2",
+    "fabricloader": ">=0.19.3",
+    "meteor-client": "*"
+  }
+}

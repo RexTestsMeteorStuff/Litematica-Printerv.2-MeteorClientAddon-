@@ -1,0 +1,11 @@
+{
+  "required": false,
+  "package": "dev.printer2.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "Printer2ReachMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

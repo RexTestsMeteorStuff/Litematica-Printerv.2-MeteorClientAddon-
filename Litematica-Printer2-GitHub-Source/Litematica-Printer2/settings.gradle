@@ -1,0 +1,8 @@
+pluginManagement {
+    repositories {
+        maven { url = 'https://maven.fabricmc.net/' }
+        maven { url = 'https://maven.meteorclient.com/' }
+        gradlePluginPortal()
+    }
+}
+rootProject.name = 'Litematica-Printer2'
